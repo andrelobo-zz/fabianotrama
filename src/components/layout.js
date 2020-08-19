@@ -32,12 +32,7 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>Sobre</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elementos</Link>
-              </li>
-              <li className="nav-tags" role="menuitem">
-                <Link to={`/tags`}>Tags</Link>
-              </li>
+                           
             </ul>
           </nav>
           <div className="site-head-center">
@@ -61,24 +56,9 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Instagram
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
+                           
             </div>
           </div>
         </div>
@@ -90,13 +70,21 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
+        Construído com{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gatsby
+        </a>
+        <br></br>
+        <a
+          href="https://andrelobo.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          por André Lobo
         </a>
       </footer>
     </div>

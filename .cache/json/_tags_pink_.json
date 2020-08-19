@@ -1,0 +1,36 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Fabiano Trama", "author": "André Lobo" }
+    },
+    "allMarkdownRemark": {
+      "totalCount": 1,
+      "edges": [
+        {
+          "node": {
+            "excerpt": "Picasso had his pink period and his blue period. I am in my blonde period right now. When I first started wearing pink, it wasn’t nothing I…",
+            "fields": { "slug": "/Estamparia-artesanal/" },
+            "frontmatter": {
+              "date": "May 07, 2019",
+              "title": "Estamparia-artesanal",
+              "description": "Pink is my favourite colour. I used to say my favourite colour was black to be cool, but it is pink - all shades of pink. If I have an accessory, it is probably pink.",
+              "tags": ["pink", "color"],
+              "thumbnail": {
+                "childImageSharp": {
+                  "fluid": {
+                    "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAwEEAv/aAAwDAQACEAMQAAABW/MsLS46SRWZtiC4UHro9hQUB2P/xAAfEAACAQMFAQAAAAAAAAAAAAABAgADERIEISIjMTL/2gAIAQEAAQUCpgFG2nNoMrqWzxDTTHuqGJ801JazRbgKoAh9/8QAHREBAAEDBQAAAAAAAAAAAAAAAQACESEDEBIiMf/aAAgBAwEBPwHqtmcSI3lLjLNT3b//xAAZEQACAwEAAAAAAAAAAAAAAAAAARARIRL/2gAIAQIBAT8B1adCoYo//8QAHRAAAQQDAQEAAAAAAAAAAAAAAAECESEQEjFBYf/aAAgBAQAGPwKxftkpEDdemrkLXDV9LjHFOFZ//8QAHRABAAMAAwADAAAAAAAAAAAAAQARITFBURCBof/aAAgBAQABPyHYvr2dEC1ggnQOlx0rPQjXRa4nNcTJ+HJdw4mhZMUoNG5PS6GsvmO6Vscr4v/aAAwDAQACAAMAAAAQJ8KwCD//xAAYEQEBAQEBAAAAAAAAAAAAAAABABExQf/aAAgBAwEBPxBfdyTizG5AhwZuye3/xAAZEQADAQEBAAAAAAAAAAAAAAAAARExECH/2gAIAQIBAT8QiI4aJRI/EZFh/8QAHxABAAMBAQABBQAAAAAAAAAAAQARITFBUXGBobHx/9oACAEBAAE/ECSuDQOr5fkeA9g59CEHLC6z7yhaMHbbfIuU7Z0gPlgHK8gl8sRf5r+zHAsbG0Bz8sQ6woqpxryN5pov7jqr8FXXwRJ6guoXnTr1yPA5RDwYBP/Z",
+                    "aspectRatio": 0.5629139072847682,
+                    "src": "/static/5e685b208696b6e1e3cd284d6942c3cd/ac53a/estamparia_artesanal3.jpg",
+                    "srcSet": "/static/5e685b208696b6e1e3cd284d6942c3cd/722c4/estamparia_artesanal3.jpg 340w,\n/static/5e685b208696b6e1e3cd284d6942c3cd/1d671/estamparia_artesanal3.jpg 680w,\n/static/5e685b208696b6e1e3cd284d6942c3cd/ac53a/estamparia_artesanal3.jpg 1360w,\n/static/5e685b208696b6e1e3cd284d6942c3cd/ef680/estamparia_artesanal3.jpg 1836w",
+                    "sizes": "(max-width: 1360px) 100vw, 1360px"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "pageContext": { "tag": "pink" }
+}

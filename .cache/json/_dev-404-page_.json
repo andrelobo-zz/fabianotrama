@@ -1,0 +1,19 @@
+{
+  "data": {
+    "allSitePage": {
+      "nodes": [
+        { "path": "/Preto -branco/" },
+        { "path": "/Estamparia-artesanal/" },
+        { "path": "/Coloridas/" },
+        { "path": "/tags/pink/" },
+        { "path": "/tags/color/" },
+        { "path": "/404/" },
+        { "path": "/about/" },
+        { "path": "/" },
+        { "path": "/tags/" },
+        { "path": "/404.html" }
+      ]
+    }
+  },
+  "pageContext": {}
+}

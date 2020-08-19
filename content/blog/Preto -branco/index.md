@@ -1,8 +1,8 @@
 ---
 title: Preto-branco
 date: "2019-05-08"
-thumbnail: ./bbbb.jpg
-description: Preto e branco dando destaques aslinhas 
+thumbnail: ./pb4.jpg
+description: Preto e branco dando destaques as linhas
 ---
 
 ### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
@@ -13,18 +13,41 @@ This is the final render.
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Darkness](./BLACK_II_desktop-1.jpg)
+![Darkness](./pb1.jpg)
 
 </div>
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Darkness](./BLACK_IX_desktop-1.jpg)
+![Darkness](./pb2.jpg)
 
 </div>
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Darkness](./BLACK_I_desktop-1.jpg)
+![Darkness](./pb3.jpg)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./pb3.jpg)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./pb4.jpg)
+
+</div>
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./pb5.jpg)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./pb8.jpg)
 
 </div>
