@@ -13,30 +13,26 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="About" keywords={[`pintura`, `corporal`, `amazonia`,`trama`, `fabiano`, `fabiano`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
+          Pesquisa em pintural Corporal , Pesquisa em pintural Corporal , Pesquisa em pintural Corporal.
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>Pesquisa em pintural Corporal</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="dynamic-styles">Pesquisa em pintural Corporal</h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            Fabiano trama vamos colocar um texto sobre o trabalho, as técnicas empregadas e tal
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
+          Pesquisa em pintural Corporal page templates Pesquisa em pintural Corporal,Pesquisa em pintural Corporal , Pesquisa em pintural Corporal, Pesquisa em pintural Corporal{" "}
             <a href="https://docs.ghost.org/api/handlebars-themes/">
               Ghost Handlebars Theme API
             </a>{" "}

@@ -5,11 +5,15 @@ thumbnail: ./pb4.jpg
 description: Preto e branco dando destaques as linhas
 ---
 
-### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
+### Série de imagens feita por [Fabiano Barros](https://www.instagram.com/fabianotrama/)
 
-I used a poly reduction on the mesh as a proxy to be able to create my studio setup with a responsive viewport. I used a simple 2 point lighting setup. I created a roughness map using the height map to get the exact results I was looking. After that, I applied my material to the high poly mesh and used a subtle smoothing deformer for the creases.
+A pintura corporal é, sem dúvidas, a arte indígena brasileira mais representativa dos índios. Isso porque ela não busca apenas um valor estético, mas a sim a transmissão de valores culturais de cada tribo. 
 
-This is the final render.
+Ela é muito utilizada durante os rituais e, principalmente, como uma forma de diferenciação dos grupos, identificando a posição hierárquicas das entidades mais importantes da tribo.
+
+Para realizar a pintura, os índios utilizam tintas naturais feitas à base de plantas e frutos. A cor branca é alcançada com o uso da tabatinga, a tonalidade vermelha, por sua vez, é obtida neste caso com Jenipapo.
+ (https://www.educamaisbrasil.com.br/enem/artes/arte-indigena-brasileira)
+
 
 <div class="kg-card kg-image-card kg-width-full">
 
