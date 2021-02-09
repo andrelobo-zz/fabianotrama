@@ -1,18 +1,15 @@
 ---
 title: Estamparia-artesanal
 date: "2019-05-07"
-tags: [estamparia,artesanal]
-thumbnail: ./estamparia_artesanal3.jpg
+tags: [estamparia, artesanal]
+thumbnail: ./estamparia_artesanal2.jpg
 description: A Estamparia artesanal tem a capacidade de agregar valor às peças e  dialoga diretamente com as mais variadas expressões culturais do país
 ---
 
-### Picasso had his pink period and his blue period. I am in my blonde period right now.
+### Estamparia Artesanal.
 
-A Estamparia artesanal tem a capacidade de agregar valor às peças e  dialoga diretamente com as mais variadas expressões culturais do país além de ser uma valiosa fonte de brasilidade.
-
-
-
-![Don't stop](./estamparia_artesanal1.jpg)
+Linhas, triângulos, pontos, retângulos...
+Pinturas-composições, arte ancestral, grafismos indígenas que vestem o corpo por partes.
 
 ![Don't stop](./estamparia_artesanal2.jpg)
 
@@ -22,10 +19,16 @@ A Estamparia artesanal tem a capacidade de agregar valor às peças e  dialoga d
 
 ![Don't stop](./estamparia_artesanal5.jpg)
 
-![Don't stop](./estamparia_artesanal6.jpg)
-
-![Don't stop](./estamparia_artesanal7.jpg)
-
 ![Don't stop](./estamparia_artesanal8.jpg)
 
 ![Don't stop](./estamparia_artesanal9.jpg)
+
+![Don't stop](./estamparia_artesanal17.jpg)
+
+![Don't stop](./estamparia_artesanal18.jpg)
+
+![Don't stop](./estamparia_artesanal20.jpg)
+
+![Don't stop](./estamparia_artesanal21.jpg)
+
+![Don't stop](./estamparia_artesanal22.jpg)
