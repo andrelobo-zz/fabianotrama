@@ -3,7 +3,7 @@ title: Estamparia-artesanal
 date: "2019-05-07"
 tags: [estamparia, artesanal]
 thumbnail: ./estamparia_artesanal2.jpg
-description: A Estamparia artesanal tem a capacidade de agregar valor às peças e  dialoga diretamente com as mais variadas expressões culturais do país
+description: Grafismos, traçados assimilados e reinventados, ampliados, diminuídos, simplificados e re-significados.
 ---
 
 ### Estamparia Artesanal.
