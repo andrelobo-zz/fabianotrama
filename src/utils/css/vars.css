@@ -18,14 +18,14 @@
     --color-base: #f5f5f7;
     --color-sub-base: #aaa;
     --color-border: #d2d2d7;
-    --color-bg: #111111;
-    --color-bg-bright: #1d1d1f;
-    --color-bg-dark: #000;
+    --color-bg: #d74426;
+    --color-bg-bright: #d74426;
+    --color-bg-dark: #d74426;
 
     --color-spare1: #66bbff;
     --color-spare2: #cccccc;
     --color-spare3: #63636e;
-    --color-spare4: #252429;
+    --color-spare4: #d74426;
     
     /* Apple Dark Appearance System Color*/
     --color-apple-blue: rgb(10,132,255);
@@ -39,7 +39,7 @@
     --color-apple-yellow: rgb(255,214,10);
 
     /* Fonts */
-    --font-sans-serif: 'Muli', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    --font-sans-serif: 'Noto Sans', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
     --font-serif: "Ibarra Real Nova", serif;
     --font-mono: "Cousine", monospace;
     --font-light: 100;

@@ -1,39 +1,19 @@
-var plugins = [
-  {
-    plugin: require("/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/node_modules/gatsby-plugin-google-analytics/gatsby-ssr"),
-    options: { plugins: [], trackingId: "" }
-  },
-  {
-    plugin: require("/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/node_modules/gatsby-plugin-feed/gatsby-ssr"),
-    options: { plugins: [] }
-  },
-  {
-    plugin: require("/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/node_modules/gatsby-plugin-manifest/gatsby-ssr"),
-    options: {
-      plugins: [],
-      name: "Fabiano Trama",
-      short_name: "FBT",
-      start_url: "/",
-      background_color: "#ffffff",
-      theme_color: "#663399",
-      display: "minimal-ui",
-      icon: "content/assets/gatsby-icon.png",
-      cache_busting_mode: "query",
-      include_favicon: true,
-      legacy: true,
-      theme_color_in_head: true,
-      cacheDigest: "5ee114ea61738ac1ad9a40b7c12eab03"
-    }
-  },
-  {
-    plugin: require("/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/node_modules/gatsby-plugin-offline/gatsby-ssr"),
-    options: { plugins: [] }
-  },
-  {
-    plugin: require("/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/node_modules/gatsby-plugin-react-helmet/gatsby-ssr"),
-    options: { plugins: [] }
-  }
-];
+var plugins = [{
+      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":""},
+    },{
+      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Fabiano Trama","short_name":"FBT","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5ee114ea61738ac1ad9a40b7c12eab03"},
+    },{
+      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
@@ -46,33 +26,33 @@ var plugins = [
 //   },
 // ]
 
-const apis = require(`./api-ssr-docs`);
+const apis = require(`./api-ssr-docs`)
 
 // Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
-    console.log(`This API doesn't exist`, api);
+    console.log(`This API doesn't exist`, api)
   }
 
   // Run each plugin in series.
   // eslint-disable-next-line no-undef
   let results = plugins.map(plugin => {
     if (!plugin.plugin[api]) {
-      return undefined;
+      return undefined
     }
-    const result = plugin.plugin[api](args, plugin.options);
+    const result = plugin.plugin[api](args, plugin.options)
     if (result && argTransform) {
-      args = argTransform({ args, result });
+      args = argTransform({ args, result })
     }
-    return result;
-  });
+    return result
+  })
 
   // Filter out undefined results.
-  results = results.filter(result => typeof result !== `undefined`);
+  results = results.filter(result => typeof result !== `undefined`)
 
   if (results.length > 0) {
-    return results;
+    return results
   } else {
-    return [defaultReturn];
+    return [defaultReturn]
   }
-};
+}

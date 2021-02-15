@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-portifolio-js": () => import("./../../../src/pages/portifolio.js" /* webpackChunkName: "component---src-pages-portifolio-js" */),
   "component---src-pages-tags-js": () => import("./../../../src/pages/tags.js" /* webpackChunkName: "component---src-pages-tags-js" */),
   "component---src-templates-blog-post-js": () => import("./../../../src/templates/blog-post.js" /* webpackChunkName: "component---src-templates-blog-post-js" */),
   "component---src-templates-tag-page-js": () => import("./../../../src/templates/tag-page.js" /* webpackChunkName: "component---src-templates-tag-page-js" */)

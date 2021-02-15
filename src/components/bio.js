@@ -17,20 +17,16 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <section>
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
+            
             <p>
-              Escrito por <strong>{author}</strong> que mora atulmente em Manaus-AM.
+              Pela necessidade de ritualizar a vida urbana é que insisto nessa pesquisa.Insisto com minimalismo
+Com vontade de comer e de vestir corpos.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Siga-me no Instagram
               </a>
             </p>
+            <strong>Fabiano Barros</strong> 
           </section>
         )
       }}
