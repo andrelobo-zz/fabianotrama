@@ -33,7 +33,7 @@ const Layout = props => {
                 <Link to={`/about`}>Sobre</Link>
               </li>
               <li className="nav-portifolio" role="menuitem">
-                <Link to={`/portifolio`}>Portifólio</Link>
+                <Link to={`/portifolio`}>Biografia</Link>
               </li> 
                            
             </ul>
@@ -79,8 +79,7 @@ const Layout = props => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
-        </a>
+          Gatsby    </a>
         <br></br>
         <a
           href="https://andrelobo.github.io"

@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":""},
     },{
-      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Fabiano Trama","short_name":"FBT","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5ee114ea61738ac1ad9a40b7c12eab03"},
     },{
-      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/loboblanco/Área de Trabalho/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
