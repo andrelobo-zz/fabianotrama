@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Fabiano Trama","short_name":"FBT","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5ee114ea61738ac1ad9a40b7c12eab03"},
+      options: {"plugins":[],"name":"Fabiano Trama","short_name":"FBT","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"06caabb87b23d8b09883369d6d5210d8"},
     },{
       plugin: require('/home/loboblanco/Área de Trabalho/projektz21/Projetos/fabianotramacombr/fabianotrama/fabianotrama/fabianotrama/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
